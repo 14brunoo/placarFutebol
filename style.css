@@ -9,16 +9,16 @@ h1{
     top: 50px; left: 850px; 
     position: absolute;
 }
-button{
-    background-color: rgb(24, 138, 14);
+#comecar{
+    background-color: black;
     color: rgb(255, 255, 255);
-    border-color: rgb(30, 116, 9);
     position: absolute;
-    top:800px; left: 860px; 
-    border-radius: 10px;
+    top:680px; left: 850px; 
+    border-radius: 20px;
     height: 50px;
     width: 125px;
     font-size: large;
+    
 }
 x1{
     background-color: rgb(162, 1, 255);
@@ -27,21 +27,21 @@ x1{
     border-radius: 10px;
 }
 x2{
-    background-color: rgb(162, 1, 255);
+    background-color: rgb(162, 0, 255);
     height: 700px;
     width: 50px;
     border-radius: 10px;
 }
 p{
     color: white;
-    top: 100px; left: 680px;
+    top: 50px; left: 680px;
     position: absolute;
     font-size: large;
 }
 #v{
     color: rgb(0, 0, 255);
     position: absolute;
-    top:220px; left: 770px; 
+    top:130px; left: 730px; 
     height: 50px;
     width: 125px;
     font-size: 300px;
@@ -50,36 +50,110 @@ p{
 #s{
     color: rgb(255, 0, 0);
     position: absolute;
-    top:340px; left: 930px; 
+    top:245px; left: 910px; 
     height: 50px;
     width: 125px;
     font-size: 300px;
 }
 #timea{
     position: absolute;
-    top:200px; left: 100px;
+    top:165px; left: 175px;
     border-radius: 50%;
+    height: 400px;
+    width: 400px;
 }
 #timeb{
     position: absolute;
-    top:200px; left: 1200px;
+    top:165px; left: 1275px;
     border-radius: 50%;
+    height: 400px;
+    width: 400px;
 }
 #timea2{
+    background-color: black;
+    height: 40px;
     color: blue;
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
-    top:400px; left: 300px;
+    top:310px; left: 311px;
 }
 #timeb2{
+    background-color: black;
+    height: 40px;
     color: red;
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
-    top:400px; left: 1400px;
+    top:310px; left: 1413px;
 }
 #fundo{
     position: relative;
     height: 950px;
     width: 2050px;
     top:0px; left: 0px;
+}
+#maistimea{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:850px; left: 300px;
+    border-radius: 20px;
+    font-size: 40px;
+}
+#menostimea{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:850px; left: 400px;
+    border-radius: 20px;
+    font-size: 40px;
+}
+#maistimeb{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:850px; left: 1400px;
+    border-radius: 20px;
+    font-size: 40px;
+}
+#menostimeb{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top:850px; left: 1500px;
+    border-radius: 20px;
+    font-size: 40px;
+}
+#resetar{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top:780px; left: 862px;
+    border-radius: 20px;
+    font-size: large;
+}
+#quadrado1{
+    background-color: rgb(255, 255, 255);
+    height: 255px;
+    width: 400px;
+    position: absolute;
+    top:580px; left: 1275px;
+    border-radius: 20px;
+}
+#quadrado2{
+    background-color: rgb(255, 255, 255);
+    height: 255px;
+    width: 400px;
+    position: absolute;
+    top:580px; left: 175px;
+    border-radius: 20px;
 }
