@@ -70,7 +70,6 @@ p{
     width: 400px;
 }
 #timea2{
-    background-color: black;
     height: 40px;
     color: blue;
     font-size: 40px;
@@ -78,7 +77,6 @@ p{
     top:310px; left: 311px;
 }
 #timeb2{
-    background-color: black;
     height: 40px;
     color: red;
     font-size: 40px;
@@ -86,7 +84,7 @@ p{
     top:310px; left: 1413px;
 }
 #fundo{
-    position: relative;
+    position: absolute;
     height: 950px;
     width: 2050px;
     top:0px; left: 0px;
@@ -141,19 +139,23 @@ p{
     border-radius: 20px;
     font-size: large;
 }
-#quadrado1{
-    background-color: rgb(255, 255, 255);
+#quadradotimeb{
+    background-color: rgb(0, 0, 0);
+    color: white;
     height: 255px;
-    width: 400px;
+    width: 228px;
     position: absolute;
-    top:580px; left: 1275px;
+    top:580px; left: 1362px;
     border-radius: 20px;
+    font-size: 200px;
 }
-#quadrado2{
-    background-color: rgb(255, 255, 255);
+#quadradotimea{
+    background-color: rgb(0, 0, 0);
+    color: white;
     height: 255px;
-    width: 400px;
+    width: 228px;
     position: absolute;
-    top:580px; left: 175px;
+    top:580px; left: 262px;
     border-radius: 20px;
+    font-size: 200px;
 }
